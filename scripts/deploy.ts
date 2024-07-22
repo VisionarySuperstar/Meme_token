@@ -6,7 +6,7 @@ async function main() {
     // Retrieve the first signer, typically the default account in Hardhat, to use as the deployer.
     const [deployer] = await ethers.getSigners()
     console.log('Contract is deploying...')
-    const instanceHenlo = await ethers.deployContract('HENLO');
+    const instanceHenlo = await ethers.deployContract('Henlo');
     // Waiting for the contract deployment to be confirmed on the blockchain.
     await instanceHenlo.waitForDeployment()
 
