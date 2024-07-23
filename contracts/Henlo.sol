@@ -206,7 +206,7 @@ contract Henlo is Ownable, ERC20 {
     uint256 private devFee          = 0;
     uint256 private buybackFee      = 0; 
     uint256 private burnFee         = 2;
-    uint256 public totalFee         = 4;
+    uint256 public totalFee         = buybackFee + marketingFee + liquidityFee + devFee + burnFee;
     uint256 private feeDenominator  = 100;
 
     uint256 sellpercent = 100;
