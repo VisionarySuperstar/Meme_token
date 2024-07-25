@@ -189,7 +189,7 @@ contract Henlo is Ownable, ERC20 {
     event set_SwapBack(uint256 Amount, bool Enabled);
     event Lyrics(string lyric);
   
-    uint256 _totalSupply =  420690000000000 * 10**_decimals; 
+    uint256 _totalSupply =  690420000000 * 10**_decimals; 
 
     uint256 public _maxTxAmount = _totalSupply.mul(1).div(100);
     uint256 public _maxWalletToken = _totalSupply.mul(1).div(100);
