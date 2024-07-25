@@ -1,8 +1,7 @@
-// SPDX-License-Identifier: UNLICENSE
+// SPDX-License-Identifier: MIT
 
 /*
-// SPDX-License-Identifier: MIT
-// Come say Henlo
+// Henlo is it me you're looking for?
 // https://x.com/HENLOfromETH
 // https://t.me/henlotoken
 */
