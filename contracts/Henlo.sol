@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: UNLICENSE
 
 /*
-
-Henlo from the other side
-
-https://t.me/henlotoken
-
+// SPDX-License-Identifier: MIT
+// Come say Henlo
+// https://x.com/HENLOfromETH
+// https://t.me/henlotoken
 */
 pragma solidity ^0.8.19;
 
@@ -516,6 +515,4 @@ contract Henlo is Ownable, ERC20 {
     function showSupply() public view returns (uint256) {
         return _totalSupply.sub(balanceOf(DEAD)).sub(balanceOf(ZERO));
     }
-
-
 }
